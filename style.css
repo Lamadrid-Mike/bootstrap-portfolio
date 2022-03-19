@@ -2,9 +2,64 @@ body{
     background-color: rgb(204, 204, 204);
     font-size: 16px;
 }
-
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev{
     display: block;
+}
+
+.filterIcon:hover{
+    cursor: pointer;
+}
+
+.img-fluid:hover{
+    cursor: pointer;
+    box-shadow: 5px 10px #888888;
+}
+.contGrid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}
+.buttons{
+    border-style: none;
+    background-color: black;
+    color:white;
+    border-radius: 35px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+.buttons:hover{
+    background-color: #888888;
+}
+.buttons2{
+    background-color: white;
+    color:black;
+    border-radius: 35px;
+    border-style:none;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.buttons2:hover{
+    border: 2px solid black;
+}
+.boxes{
+    border: 1px solid darkgray;
+    width: 70px;
+    height: 50px;
+    align-self: center;
+    border-radius: 5px;
+}
+.boxes:hover{
+    border-color: black;
+    cursor: pointer;
+}
+
+.sizeContainer{
+   border: 1px solid black;
 }

@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
     <title>Nike</title>
 </head>
 <body>
 <!--NavBar Links-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="/menu/logoNike.png" width="50" height="auto" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2>
-                    <li class="nav-item">
-                        <a class="nav-link text-center" aria-current="page" href="#">New Releases</a>
+                <ul class="navbar-nav d-flex mb-1">
+                    <li class=" nav-item">
+                    <a class="nav-link text-center" aria-current="page" href="#">New Releases</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-center" href="#">Men</a>
@@ -43,7 +46,7 @@
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active text-center p-4">
                     <p>FREE SHIPPING + RETURNS, FREE <br>
-                    MEMBERSHIP, EXCLUSIVE PRODUCTS</p>
+                        MEMBERSHIP, EXCLUSIVE PRODUCTS</p>
                 </div>
                 <div class="carousel-item text-center p-4">
                     <p>SAVE UP TO 40%</p>
@@ -57,78 +60,117 @@
             </a>
         </div>
     </div>
-<!--First Section-->
-    <div class="container-fluid mb-4 d-flex flex-wrap">
+    <div class="container-fluid">
         <div class="row">
+            <div class="col d-flex justify-content-start">
+                <h4 class="text-center">New Releases(1081)</h4>
+            </div>
+            <div class="col filterIcon d-flex justify-content-end">
+                <p>Show Filters <img src="/menu/filterMenu.png" width="20" height="auto" alt=""></p>
+            </div>
+        </div>
+    </div>
+<!--First Section-->
+    <div class="container-fluid mb-4">
+        <div class="row mx-4 d-flex">
             <div class="col">
-                <img class="" width="444" src="/menu/mainPic1.webp" alt="">
-                    <figure>
-                        <blockquote class="blockquote">
-                            <p>Nike Air Max Dawn</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer">Women's Shoes</figcaption>
-                        <figcaption class="blockquote-footer">2 Colors</figcaption>
-                    </figure>
+                <a href="/sample.html"><img class="img-fluid" src="/menu/mainPic1.webp" alt=""></a>
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>Nike Air Max Dawn</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">Women's Shoes</figcaption>
+                    <figcaption class="blockquote-footer">2 Colors</figcaption>
+                </figure>
             </div>
             <div class="col">
                 <img class="img-fluid" src="/menu/mainPic2.webp" alt="">
-                    <figure>
-                        <blockquote class="blockquote">
-                            <p>Nike Sportswear Essentials</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer">Women's Fleece Hoodie</figcaption>
-                        <figcaption class="blockquote-footer">1 Colors</figcaption>
-                    </figure>
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>Nike Sportswear Essentials</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">Women's Fleece Hoodie</figcaption>
+                    <figcaption class="blockquote-footer">1 Colors</figcaption>
+                </figure>
             </div>
             <div class="col">
                 <img class="img-fluid" src="/menu/mainPic3.webp" alt="">
-                    <figure>
-                        <blockquote class="blockquote">
-                            <p>Nike x ACRONYM&reg</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer">Men's Therma-FIT Knit Jacket</figcaption>
-                        <figcaption class="blockquote-footer">2 Colors</figcaption>
-                    </figure>
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>Nike x ACRONYM&reg</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">Men's Therma-FIT Knit Jacket</figcaption>
+                    <figcaption class="blockquote-footer">2 Colors</figcaption>
+                </figure>
             </div>
         </div>
     </div>
-    <div class="container-fluid mb-4 d-flex flex-wrap">
-        <div class="row">
+    <div class="container-fluid mb-4">
+        <div class="row mx-4">
             <div class="col">
                 <img class="img-fluid" src="/menu/mainPic4.webp" alt="">
-                    <figure>
-                        <blockquote class="blockquote">
-                            <p>Nike Sportwear Essentials</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer">Women's Oversized Fleece</figcaption>
-                        <figcaption class="blockquote-footer">3 Colors</figcaption>
-                    </figure>
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>Nike Sportwear Essentials</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">Women's Oversized Fleece</figcaption>
+                    <figcaption class="blockquote-footer">3 Colors</figcaption>
+                </figure>
             </div>
             <div class="col">
                 <img class="img-fluid" src="/menu/mainPic5.webp" alt="">
-                    <figure>
-                        <blockquote class="blockquote">
-                            <p>Nike Sportwear</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer">Men's Lined Bomber Jacket</figcaption>
-                        <figcaption class="blockquote-footer">1 Colors</figcaption>
-                    </figure>
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>Nike Sportwear</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">Men's Lined Bomber Jacket</figcaption>
+                    <figcaption class="blockquote-footer">1 Colors</figcaption>
+                </figure>
+            </div>
+            <div class="col mb-4">
+                <img class="img-fluid" src="/menu/mainPic6.webp" alt="">
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>Nike Air Force 1'07</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">Women's Shoes</figcaption>
+                    <figcaption class="blockquote-footer">1 Colors</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row mx-4">
+            <div class="col">
+                <img class="img-fluid" src="/menu/mainPic7.webp" alt="">
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>Nike Get Fit</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">Women's French Terry</figcaption>
+                    <figcaption class="blockquote-footer">2 Colors</figcaption>
+                </figure>
             </div>
             <div class="col">
-                <img class="" width="444" src="/menu/mainPic6.webp" alt="">
-                    <figure>
-                        <blockquote class="blockquote">
-                            <p>Nike Air Force 1'07</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer">Women's Shoes</figcaption>
-                        <figcaption class="blockquote-footer">1 Colors</figcaption>
-                    </figure>
+                <img class="img-fluid" src="/menu/mainPic8.webp" alt="">
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>Nike Solo Swoosh</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">Men's Fleece Pants</figcaption>
+                    <figcaption class="blockquote-footer">4 Colors</figcaption>
+                </figure>
+            </div>
+            <div class="col">
+                <img class="img-fluid" src="/menu/mainPic9.webp" alt="">
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>Nike Air Max 90 SE</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">Women's Shoes</figcaption>
+                    <figcaption class="blockquote-footer">1 Colors</figcaption>
+                </figure>
             </div>
         </div>
     </div>
-   
-
-    
 
 
 
@@ -143,6 +185,12 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
